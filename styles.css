@@ -3,6 +3,17 @@
     border-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .plan div {
+        padding: 20px;
+    }
+
+    .plan.special div {
+        padding: 20px;
+    }
+}
+
+
 .plan p {
     color: gray;
 }
@@ -40,11 +51,12 @@
     font-weight: bold;
 }
 
-.plan.special {
+.plan.special div {
     background: #3F87F5;
     box-shadow: #173f7ca2 0px 7px 29px 0px;
     color: white;
     padding: 50px 20px;
+    border-radius: 20px;
 }
 
 .plan.special ul li::before {
@@ -59,7 +71,7 @@
     margin-top: 100px;
 }
  
-.testimonials__cards .col div {
+.testimonials__cards .testimonials__cards-item div {
     padding: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     text-align: center;
