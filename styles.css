@@ -1,3 +1,6 @@
+.carousel-item img {
+    filter: brightness(50%);
+}
 
 .plan {
     border-radius: 20px;
