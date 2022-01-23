@@ -1,0 +1,67 @@
+
+.plan {
+    border-radius: 20px;
+}
+
+.plan p {
+    color: gray;
+}
+
+.plan.special p {
+    color: rgb(204, 204, 204);
+}
+
+.plan ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.plan ul li::before {
+    content: "\ea41";
+    font-family: "boxicons";
+    font-size: 20px;
+    background: #5243c242;
+    color: #5243C2;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.plan .btn {
+    background: #f496d233 !important;
+    color: #3F87F5;
+    border-radius: 50px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.plan.special {
+    background: #3F87F5;
+    box-shadow: #173f7ca2 0px 7px 29px 0px;
+    color: white;
+    padding: 50px 20px;
+}
+
+.plan.special ul li::before {
+    background: #ffffff20;
+    color: white;
+}
+
+.plan.special .btn {
+    background: white !important;
+}
+.testimonials {
+    margin-top: 100px;
+}
+ 
+.testimonials__cards .col div {
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border-radius: 20px;
+}
