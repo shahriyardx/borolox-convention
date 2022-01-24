@@ -1,3 +1,11 @@
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .carousel-item:not(:first-child) img {
     filter: brightness(50%);
 }
