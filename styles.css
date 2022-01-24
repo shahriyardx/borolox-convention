@@ -73,6 +73,12 @@
     border-radius: 20px;
 }
 
+.plan.special div .badge {
+    top: 0;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
 .plan.special ul li::before {
     background: #ffffff20;
     color: white;
