@@ -113,3 +113,31 @@ footer {
 footer p, footer h4 {
     color: #D9DBE1;
 }
+
+.offer-toast {
+    position: fixed;
+    width: max-content;
+    bottom: 20px;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 99;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: white;
+    border-left: 7px solid #3F87F5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.offer-toast i {
+    color: #5f9fff;
+    font-size: 25px;   
+}
+
+@media screen and (min-width: 768px) {
+    .offer-toast {
+        right: 20px;
+        transform: none;
+    }
+}
