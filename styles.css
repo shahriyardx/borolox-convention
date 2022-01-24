@@ -95,7 +95,7 @@
 .plan.special .btn {
     background: white !important;
 }
-.testimonials, .faq, .pricing {
+.testimonials, .faq, .pricing, .contact {
     margin-top: 100px;
 }
  
@@ -140,4 +140,8 @@ footer p, footer h4 {
         right: 20px;
         transform: none;
     }
+}
+
+.contact .image {
+    border: 1px solid black;
 }
